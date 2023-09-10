@@ -1,0 +1,3 @@
+- name: nixos-rebuild switch
+  shell: nixos-rebuild switch -j8
+  listen: nixos-rebuild switch

@@ -1,0 +1,7 @@
+---
+- name: land configuration.nix
+  ansible.builtin.template:
+    src: configuration.nix
+    dest: /etc/nixos/configuration.nix
+    mode: 0755
+  notify: nixos-rebuild switch

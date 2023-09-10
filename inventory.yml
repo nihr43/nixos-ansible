@@ -1,0 +1,11 @@
+---
+
+nixos:
+  hosts:
+    172.30.193.173:
+      hostname: datto-nix-c61b4
+    172.30.220.14:
+      hostname: datto-nix-7c45e
+  vars:
+    nameserver: 1.1.1.1
+    serial: true
